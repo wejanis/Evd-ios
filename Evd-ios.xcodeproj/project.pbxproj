@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62292DC1C2E21A4004F3700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F62292DB1C2E21A4004F3700 /* main.m */; };
+		F62292DF1C2E21A4004F3700 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F62292DE1C2E21A4004F3700 /* AppDelegate.m */; };
+		F62292E21C2E21A4004F3700 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62292E11C2E21A4004F3700 /* RootViewController.m */; };
+		F62292E51C2E21A4004F3700 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62292E41C2E21A4004F3700 /* DataViewController.m */; };
+		F62292E81C2E21A4004F3700 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F62292E71C2E21A4004F3700 /* ModelController.m */; };
+		F62292EB1C2E21A4004F3700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62292E91C2E21A4004F3700 /* Main.storyboard */; };
+		F62292ED1C2E21A4004F3700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62292EC1C2E21A4004F3700 /* Assets.xcassets */; };
+		F62292F01C2E21A4004F3700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62292EE1C2E21A4004F3700 /* LaunchScreen.storyboard */; };
+		F62292FB1C2E21A4004F3700 /* Evd_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F62292FA1C2E21A4004F3700 /* Evd_iosTests.m */; };
+		F62293061C2E21A4004F3700 /* Evd_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F62293051C2E21A4004F3700 /* Evd_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F62292F71C2E21A4004F3700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62292CF1C2E21A4004F3700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62292D61C2E21A4004F3700;
+			remoteInfo = "Evd-ios";
+		};
+		F62293021C2E21A4004F3700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62292CF1C2E21A4004F3700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62292D61C2E21A4004F3700;
+			remoteInfo = "Evd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F62292D71C2E21A4004F3700 /* Evd-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evd-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62292DB1C2E21A4004F3700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F62292DD1C2E21A4004F3700 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F62292DE1C2E21A4004F3700 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F62292E01C2E21A4004F3700 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F62292E11C2E21A4004F3700 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F62292E31C2E21A4004F3700 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		F62292E41C2E21A4004F3700 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		F62292E61C2E21A4004F3700 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		F62292E71C2E21A4004F3700 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		F62292EA1C2E21A4004F3700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F62292EC1C2E21A4004F3700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F62292EF1C2E21A4004F3700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F62292F11C2E21A4004F3700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F62292F61C2E21A4004F3700 /* Evd-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Evd-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62292FA1C2E21A4004F3700 /* Evd_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Evd_iosTests.m; sourceTree = "<group>"; };
+		F62292FC1C2E21A4004F3700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F62293011C2E21A4004F3700 /* Evd-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Evd-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62293051C2E21A4004F3700 /* Evd_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Evd_iosUITests.m; sourceTree = "<group>"; };
+		F62293071C2E21A4004F3700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F62292D41C2E21A4004F3700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62292F31C2E21A4004F3700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62292FE1C2E21A4004F3700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62292CE1C2E21A4004F3700 = {
+			isa = PBXGroup;
+			children = (
+				F62292D91C2E21A4004F3700 /* Evd-ios */,
+				F62292F91C2E21A4004F3700 /* Evd-iosTests */,
+				F62293041C2E21A4004F3700 /* Evd-iosUITests */,
+				F62292D81C2E21A4004F3700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62292D81C2E21A4004F3700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62292D71C2E21A4004F3700 /* Evd-ios.app */,
+				F62292F61C2E21A4004F3700 /* Evd-iosTests.xctest */,
+				F62293011C2E21A4004F3700 /* Evd-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62292D91C2E21A4004F3700 /* Evd-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F62292DD1C2E21A4004F3700 /* AppDelegate.h */,
+				F62292DE1C2E21A4004F3700 /* AppDelegate.m */,
+				F62292E01C2E21A4004F3700 /* RootViewController.h */,
+				F62292E11C2E21A4004F3700 /* RootViewController.m */,
+				F62292E31C2E21A4004F3700 /* DataViewController.h */,
+				F62292E41C2E21A4004F3700 /* DataViewController.m */,
+				F62292E61C2E21A4004F3700 /* ModelController.h */,
+				F62292E71C2E21A4004F3700 /* ModelController.m */,
+				F62292E91C2E21A4004F3700 /* Main.storyboard */,
+				F62292EC1C2E21A4004F3700 /* Assets.xcassets */,
+				F62292EE1C2E21A4004F3700 /* LaunchScreen.storyboard */,
+				F62292F11C2E21A4004F3700 /* Info.plist */,
+				F62292DA1C2E21A4004F3700 /* Supporting Files */,
+			);
+			path = "Evd-ios";
+			sourceTree = "<group>";
+		};
+		F62292DA1C2E21A4004F3700 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F62292DB1C2E21A4004F3700 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F62292F91C2E21A4004F3700 /* Evd-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F62292FA1C2E21A4004F3700 /* Evd_iosTests.m */,
+				F62292FC1C2E21A4004F3700 /* Info.plist */,
+			);
+			path = "Evd-iosTests";
+			sourceTree = "<group>";
+		};
+		F62293041C2E21A4004F3700 /* Evd-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F62293051C2E21A4004F3700 /* Evd_iosUITests.m */,
+				F62293071C2E21A4004F3700 /* Info.plist */,
+			);
+			path = "Evd-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62292D61C2E21A4004F3700 /* Evd-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F622930A1C2E21A4004F3700 /* Build configuration list for PBXNativeTarget "Evd-ios" */;
+			buildPhases = (
+				F62292D31C2E21A4004F3700 /* Sources */,
+				F62292D41C2E21A4004F3700 /* Frameworks */,
+				F62292D51C2E21A4004F3700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Evd-ios";
+			productName = "Evd-ios";
+			productReference = F62292D71C2E21A4004F3700 /* Evd-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F62292F51C2E21A4004F3700 /* Evd-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F622930D1C2E21A4004F3700 /* Build configuration list for PBXNativeTarget "Evd-iosTests" */;
+			buildPhases = (
+				F62292F21C2E21A4004F3700 /* Sources */,
+				F62292F31C2E21A4004F3700 /* Frameworks */,
+				F62292F41C2E21A4004F3700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F62292F81C2E21A4004F3700 /* PBXTargetDependency */,
+			);
+			name = "Evd-iosTests";
+			productName = "Evd-iosTests";
+			productReference = F62292F61C2E21A4004F3700 /* Evd-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F62293001C2E21A4004F3700 /* Evd-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62293101C2E21A4004F3700 /* Build configuration list for PBXNativeTarget "Evd-iosUITests" */;
+			buildPhases = (
+				F62292FD1C2E21A4004F3700 /* Sources */,
+				F62292FE1C2E21A4004F3700 /* Frameworks */,
+				F62292FF1C2E21A4004F3700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F62293031C2E21A4004F3700 /* PBXTargetDependency */,
+			);
+			name = "Evd-iosUITests";
+			productName = "Evd-iosUITests";
+			productReference = F62293011C2E21A4004F3700 /* Evd-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62292CF1C2E21A4004F3700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Evd;
+				TargetAttributes = {
+					F62292D61C2E21A4004F3700 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F62292F51C2E21A4004F3700 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F62292D61C2E21A4004F3700;
+					};
+					F62293001C2E21A4004F3700 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F62292D61C2E21A4004F3700;
+					};
+				};
+			};
+			buildConfigurationList = F62292D21C2E21A4004F3700 /* Build configuration list for PBXProject "Evd-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62292CE1C2E21A4004F3700;
+			productRefGroup = F62292D81C2E21A4004F3700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62292D61C2E21A4004F3700 /* Evd-ios */,
+				F62292F51C2E21A4004F3700 /* Evd-iosTests */,
+				F62293001C2E21A4004F3700 /* Evd-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62292D51C2E21A4004F3700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62292F01C2E21A4004F3700 /* LaunchScreen.storyboard in Resources */,
+				F62292ED1C2E21A4004F3700 /* Assets.xcassets in Resources */,
+				F62292EB1C2E21A4004F3700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62292F41C2E21A4004F3700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62292FF1C2E21A4004F3700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F62292D31C2E21A4004F3700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62292E51C2E21A4004F3700 /* DataViewController.m in Sources */,
+				F62292DF1C2E21A4004F3700 /* AppDelegate.m in Sources */,
+				F62292E81C2E21A4004F3700 /* ModelController.m in Sources */,
+				F62292DC1C2E21A4004F3700 /* main.m in Sources */,
+				F62292E21C2E21A4004F3700 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62292F21C2E21A4004F3700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62292FB1C2E21A4004F3700 /* Evd_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62292FD1C2E21A4004F3700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62293061C2E21A4004F3700 /* Evd_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F62292F81C2E21A4004F3700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62292D61C2E21A4004F3700 /* Evd-ios */;
+			targetProxy = F62292F71C2E21A4004F3700 /* PBXContainerItemProxy */;
+		};
+		F62293031C2E21A4004F3700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62292D61C2E21A4004F3700 /* Evd-ios */;
+			targetProxy = F62293021C2E21A4004F3700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F62292E91C2E21A4004F3700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62292EA1C2E21A4004F3700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F62292EE1C2E21A4004F3700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62292EF1C2E21A4004F3700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F62293081C2E21A4004F3700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F62293091C2E21A4004F3700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F622930B1C2E21A4004F3700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Evd-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evd.Evd-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F622930C1C2E21A4004F3700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Evd-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evd.Evd-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F622930E1C2E21A4004F3700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Evd-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evd.Evd-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evd-ios.app/Evd-ios";
+			};
+			name = Debug;
+		};
+		F622930F1C2E21A4004F3700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Evd-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evd.Evd-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evd-ios.app/Evd-ios";
+			};
+			name = Release;
+		};
+		F62293111C2E21A4004F3700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Evd-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evd.Evd-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Evd-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F62293121C2E21A4004F3700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Evd-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evd.Evd-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Evd-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F62292D21C2E21A4004F3700 /* Build configuration list for PBXProject "Evd-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62293081C2E21A4004F3700 /* Debug */,
+				F62293091C2E21A4004F3700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F622930A1C2E21A4004F3700 /* Build configuration list for PBXNativeTarget "Evd-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F622930B1C2E21A4004F3700 /* Debug */,
+				F622930C1C2E21A4004F3700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F622930D1C2E21A4004F3700 /* Build configuration list for PBXNativeTarget "Evd-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F622930E1C2E21A4004F3700 /* Debug */,
+				F622930F1C2E21A4004F3700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F62293101C2E21A4004F3700 /* Build configuration list for PBXNativeTarget "Evd-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62293111C2E21A4004F3700 /* Debug */,
+				F62293121C2E21A4004F3700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62292CF1C2E21A4004F3700 /* Project object */;
+}
